@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400&family=Tajawal:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <!-- CITY NAME + DATE -->
+        <div style="margin-top: 100px;">
+            <!-- CITY NAME -->
+            <div>
+                <h1 class="city" id="city-name">جدة</h1>
+                <h5 class="city" id="city-date">الاربعاء 25 يناير</h5>
+            </div>
+            <!--// CITY NAME //-->
+            <hr>
+            <!-- PRAYER TIMES -->
+            <div class="center" style="height: 300px; margin-top: 80px; justify-content: space-around;">
+
+                <!-- CARD -->
+                <div class="card">
+                    <div class="header">
+                        <h1>الفجر</h1>
+                    </div>
+                    <div class="body center" style="height: 80%;">
+                        <h1 class="time" id="Fajr-time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                <!--// CARD //-->
+
+                <!-- CARD -->
+                <div class="card">
+                    <div class="header">
+                        <h1>الشروق</h1>
+                    </div>
+                    <div class="body center" style="height: 80%;">
+                        <h1 class="time" id="sunrise-time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                <!--// CARD //-->
+
+                <!-- CARD -->
+                <div class="card">
+                    <div class="header">
+                        <h1>الظهر</h1>
+                    </div>
+                    <div class="body center" style="height: 80%;">
+                        <h1 class="time" id="Dhuhr-time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                <!--// CARD //-->
+
+                <!-- CARD -->
+                <div class="card">
+                    <div class="header">
+                        <h1>العصر</h1>
+                    </div>
+                    <div class="body center" style="height: 80%;">
+                        <h1 class="time" id="asr-time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                <!--// CARD //-->
+
+                <!-- CARD -->
+                <div class="card">
+                    <div class="header">
+                        <h1>المغرب</h1>
+                    </div>
+                    <div class="body center" style="height: 80%;">
+                        <h1 class="time" id="maghrib-time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                <!--// CARD //-->
+
+                <!-- CARD -->
+                <div class="card">
+                    <div class="header">
+                        <h1>العشاء</h1>
+                    </div>
+                    <div class="body center" style="height: 80%;">
+                        <h1 class="time" id="isha-time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                <!--// CARD //-->
+            </div>
+            <!--// PRAYER TIMES //-->
+
+            <!-- CHANGE CITY SELECT -->
+            <div class="center" style="margin-top: 120px;">
+                <select name="" id="cities-select">
+                </select>
+            </div>
+            <!--// CHANGE CITY SELECT //-->
+        </div>
+        <!--// CITY NAME + DATE //-->
+    </div>
+    
+</body>
+<script src="/node_modules/axios/dist/axios.min.js"></script>
+<script src="app.js"></script>
+</html>
